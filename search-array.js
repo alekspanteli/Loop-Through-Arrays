@@ -7,7 +7,7 @@ let message;
 
 
 if (inStock.includes(search)){
-  message = `We have item: ${search}`
+  message = `We have item: ${search}. Its ${inStock.indexOf(search)} on the list`
 } else{
   message = `We dont have item`
 }
